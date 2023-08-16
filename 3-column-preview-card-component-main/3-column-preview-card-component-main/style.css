@@ -1,0 +1,48 @@
+body{
+   
+    background-color: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    Font-size: 15px;
+     
+}
+h1{
+    color: hsl(0, 0%, 95%);
+}
+p{
+   color:hsla(0, 0%, 100%, 0.75);
+  
+}
+button{
+
+    background-color:hsl(0, 0%, 95%) ; ;
+    border: 0px solid ;
+    border-radius: 10px;
+    height: 25px;
+
+}
+#button-1{
+ color: hsl(31, 77%, 52%);
+}
+#button-2{
+    color:  hsl(184, 100%, 22%);
+}
+#button-3{
+    color: hsl(179, 100%, 13%);
+}
+section{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 50px;
+}
+.card1{
+   background-color:  hsl(31, 77%, 52%);
+   padding: 40px;
+}
+.card2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+.card3{
+background-color: hsl(179, 100%, 13%);
+padding: 40px;
+}
