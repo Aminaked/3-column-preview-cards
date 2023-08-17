@@ -83,6 +83,7 @@ button{
     font-family: var(--Font-family);
     font-size: var(--Font-size);
     font-weight: var(--Font-weight);
+    cursor: pointer;
     transition: all 0.15s;
 }
 
